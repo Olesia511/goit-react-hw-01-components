@@ -38,7 +38,7 @@ export const StatsList = styled.ul`
   border-radius: ${p => p.theme.radii.sm};
   overflow: hidden;
   & :nth-child(n):hover {
-    background-color: ${props => props.theme.colors.yellowGreen};
+    background-color: ${props => props.theme.colors.pink};
   }
 `;
 
