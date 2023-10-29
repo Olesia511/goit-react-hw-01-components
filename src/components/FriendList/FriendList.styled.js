@@ -11,8 +11,14 @@ export const FriendItem = styled.li`
   background-color: ${p => p.theme.colors.pink};
   color: ${p => p.theme.colors.whiteIce};
   text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
   &:not(:last-child) {
     margin-bottom: ${props => props.theme.spacing(5)};
+  }
+  &:hover {
+    background-color: ${props => props.theme.colors.burgundy};
+    color: ${props => props.theme.colors.whiteIce};
   }
 `;
 

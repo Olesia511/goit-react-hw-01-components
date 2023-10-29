@@ -37,10 +37,6 @@ export const StatsList = styled.ul`
   background-color: ${p => p.theme.colors.whiteIce};
   border-radius: ${p => p.theme.radii.sm};
   overflow: hidden;
-  & :nth-child(n):hover {
-    background-color: ${props => props.theme.colors.pink};
-    color: ${props => props.theme.colors.whiteIce};
-  }
 `;
 
 export const StatsItem = styled.li`
