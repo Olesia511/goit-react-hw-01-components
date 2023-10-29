@@ -17,7 +17,7 @@ export const FriendItem = styled.li`
     margin-bottom: ${props => props.theme.spacing(5)};
   }
   &:hover {
-    background-color: ${props => props.theme.colors.burgundy};
+    background-color: ${props => props.theme.colors.brown};
     color: ${props => props.theme.colors.whiteIce};
   }
 `;
