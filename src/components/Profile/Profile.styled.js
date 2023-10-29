@@ -39,6 +39,7 @@ export const StatsList = styled.ul`
   overflow: hidden;
   & :nth-child(n):hover {
     background-color: ${props => props.theme.colors.pink};
+    color: ${props => props.theme.colors.whiteIce};
   }
 `;
 
